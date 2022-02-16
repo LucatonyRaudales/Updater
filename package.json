@@ -1,0 +1,31 @@
+{
+  "name": "athupdater",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "athupdate": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "atest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucatonyRaudales/Updater.git"
+  },
+  "keywords": [
+    "Updater",
+    "fs"
+  ],
+  "author": "Tony Raudales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucatonyRaudales/Updater/issues"
+  },
+  "homepage": "https://github.com/LucatonyRaudales/Updater#readme",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "fs-extra": "^10.0.0",
+    "localenv": "^0.2.2"
+  }
+}
